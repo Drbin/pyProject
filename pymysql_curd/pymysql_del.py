@@ -9,4 +9,3 @@ cur.execute(sql_del)
 con.commit()
 cur.close()
 con.close()
-
