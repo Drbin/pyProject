@@ -7,4 +7,3 @@ data = cursor.execute(sql_read)
 print(data)
 
 
-
