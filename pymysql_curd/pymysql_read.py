@@ -6,4 +6,3 @@ sql_read = "SELECT * FROM admin_tbl"
 data = cursor.execute(sql_read)
 print(data)
 
-
