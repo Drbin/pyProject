@@ -5,3 +5,4 @@ cursor = con.cursor()
 sql_read = "SELECT * FROM admin_tbl"
 data = cursor.execute(sql_read)
 print(data)
+logs.logs_on("执行了查询操作，sql语句为：")
