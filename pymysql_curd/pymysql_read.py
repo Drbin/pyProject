@@ -7,3 +7,4 @@ data = cursor.execute(sql_read)
 print(data)
 logs.logs_on("执行了查询操作，sql语句为：")
 logs.logs_on(sql_read)
+
