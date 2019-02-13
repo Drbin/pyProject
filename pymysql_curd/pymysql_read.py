@@ -7,6 +7,5 @@ data = cursor.execute(sql_read)
 logs.logs_on("执行了查询操作，SQL语句为：")
 logs.logs_on(sql_read)
 con.commit()
-
 cursor.close()
 con.close()
