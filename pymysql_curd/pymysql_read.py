@@ -9,3 +9,4 @@ logs.logs_on(sql_read)
 con.commit()
 cursor.close()
 con.close()
+
