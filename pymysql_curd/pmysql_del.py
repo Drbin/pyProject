@@ -1,2 +1,2 @@
 import pymysql
-from logs import logs_on
+import logs
