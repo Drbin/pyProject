@@ -7,4 +7,3 @@ cursor.execute(sql_insert)
 con.commit()
 cursor.close()
 con.close()
-
