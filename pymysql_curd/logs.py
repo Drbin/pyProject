@@ -4,10 +4,10 @@ my_addr = socket.gethostbyname(my_name)
 
 
 def logs_on(data):
-    data = data.encode()
+    #data = data.encode()
     f = open("logs.txt", "a+")
     f.write(data+"\n")
     f.close()
 
-logs_on(my_addr)
+logs_on("在"+my_addr+"运行")
 
