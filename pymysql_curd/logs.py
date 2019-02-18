@@ -6,8 +6,9 @@ my_addr = socket.gethostbyname(my_name)
 def logs_on(data):
     #data = data.encode()
     f = open("logs.txt", "a+")
+    f.write(my_addr+"\n")
     f.write(data+"\n")
     f.close()
 
-logs_on("在"+my_addr+"运行")
+
 
