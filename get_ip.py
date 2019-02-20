@@ -7,5 +7,5 @@ print(":".join([mac[e:e + 2] for e in range(0, 11, 2)]))
 my_name = socket.getfqdn(socket.gethostname(  ))
 #获取本机ip
 my_addr = socket.gethostbyname(my_name)
-print(myname)
+print(my_name)
 print(my_addr)
