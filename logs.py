@@ -4,4 +4,3 @@ def file_on(data):
     f.write(data+"\n")
 
     f.close()
-
