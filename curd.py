@@ -1,7 +1,7 @@
 import pymysql.cursors
 import sys
 print("pymysql 准备完成")
-con = pymysql.connect(host='localhost', user='root', passwd='root',database='actire_db', charset='utf8')
+con = pymysql.connect(host='localhost', user='root', passwd='root', database='actire_db', charset='utf8')
 cursor = con.cursor()
 print(cursor)
 print("获取光标")
