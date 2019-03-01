@@ -8,7 +8,7 @@ cursor.execute(sql_insert)
 print(cursor.execute(sql_insert))
 print("sql语句执行完成")
 cursor.execute("SELECT VERSION()")
-# 使用 fetchone() 方法获取单条数据.
+
 data = cursor.fetchone()
 cursor.close()
 con.close()
