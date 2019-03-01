@@ -8,7 +8,6 @@ cursor.execute(sql_insert)
 print(cursor.execute(sql_insert))
 print("sql语句执行完成")
 cursor.execute("SELECT VERSION()")
-
 data = cursor.fetchone()
 cursor.close()
 con.close()
