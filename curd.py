@@ -11,5 +11,4 @@ cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
 cursor.close()
 con.close()
-print("Database version : %s " % data)
 
