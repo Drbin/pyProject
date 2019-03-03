@@ -6,7 +6,6 @@ cursor = con.cursor()
 sql_insert = "insert into admin_tbl(admin_name,admin_login_name,admin_password,admin_create) values (11,1,md5(1),NOW())"
 cursor.execute(sql_insert)
 print(cursor.execute(sql_insert))
-
 cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
 cursor.close()
