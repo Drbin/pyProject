@@ -32,6 +32,8 @@ def main():
     # 创建按钮对象 指定添加到哪个容器中 通过command参数绑定事件回调函数
     sumBtn= tkinter.Button(tos,text='+')
     sumBtn.pack(side='left')
+    lBtn= tkinter.Button(tos,text='-')
+    lBtn.pack(side='left')
     button1 = tkinter.Button(panel, text='修改', command=change_label_text)
     button1.pack(side='left')
     button2 = tkinter.Button(panel, text='退出', command=confirm_to_quit)
