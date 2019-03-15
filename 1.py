@@ -34,6 +34,8 @@ def main():
     sumBtn.pack(side='left')
     lBtn= tkinter.Button(tos,text='-')
     lBtn.pack(side='left')
+    xBtn= tkinter.Button(tos,text='*')
+    xBtn.pack(side='left')
     button1 = tkinter.Button(panel, text='修改', command=change_label_text)
     button1.pack(side='left')
     button2 = tkinter.Button(panel, text='退出', command=confirm_to_quit)
