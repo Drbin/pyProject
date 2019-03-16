@@ -38,6 +38,8 @@ def main():
     xBtn.pack(side='left')
     cBtn= tkinter.Button(tos,text='/')
     cBtn.pack(side='left')
+    oneBtn= tkinter.Button(tos,text='1')
+    oneBtn.pack(side='left')
     button1 = tkinter.Button(panel, text='修改', command=change_label_text)
     button1.pack(side='left')
     button2 = tkinter.Button(panel, text='退出', command=confirm_to_quit)
