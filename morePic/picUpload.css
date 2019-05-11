@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+.init_str{ width: 100%; float: left;}
+.init_str li{ position: relative; overflow: hidden;margin-bottom: 10px; float: left; cursor: pointer; width: 140px; height: 140px; margin-right: 20px;   background-image: url("pic.png"); }
+.init_str li:hover{background-position: 0 140px;}
+.init_str li input[type=file]{z-index:605; outline: none; background: none; border: none; width: 280px; height: 280px;cursor: pointer; position: absolute; left: -140px; top:-140px;}
+.init_str li img{ width: 100%; height: 100%; float: left;}
+.init_str li .del{width: 50px; z-index: 999;overflow: hidden; height: 50px;position: absolute; right: -25px; top: -25px; border-radius: 25px; background:rgba(0,0,0,0.7);}
+.init_str li .del span{ width: 25px; display: block; text-align: center; line-height: 25px; height: 25px; font-size: 20px; font-weight: 600; color: #fff;float: left; margin-top: 20px; margin-left: 2px; }
+.init_upload{height: 36px; width: 70px; background: #2b99ff; color: #fff;cursor: pointer; border: none; outline: none; margin-left: 10px; margin-top: 20px; float: left;}
