@@ -74,3 +74,5 @@ def main():
     pygame.display.set_caption('大球吃小球')
     running = True
     # 开启一个事件循环处理发生的事件
+    while running:
+        # 从消息队列中获取事件并对事件进行处理
