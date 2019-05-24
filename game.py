@@ -76,3 +76,7 @@ def main():
     # 开启一个事件循环处理发生的事件
     while running:
         # 从消息队列中获取事件并对事件进行处理
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+            # 处理鼠标事件的代码
