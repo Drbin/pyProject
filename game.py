@@ -92,4 +92,11 @@ def main():
                 balls.append(ball)
         screen.fill((255, 255, 255))
         # 取出容器中的球 如果没被吃掉就绘制 被吃掉了就移除
-     
+        for ball in balls:
+            if ball.alive:
+                ball.draw(screen)
+            else:
+                balls.remove(ball)
+        pygame.display.flip()
+        # 每隔50毫秒就改变球的位置再刷新窗口
+        pygame.time.delay(50)
