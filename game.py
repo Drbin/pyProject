@@ -103,3 +103,6 @@ def main():
         for ball in balls:
             ball.move(screen)
             # 检查球有没有吃到其他的球
+            for other in balls:
+                ball.eat(other)
+
