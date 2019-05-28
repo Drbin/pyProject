@@ -106,3 +106,6 @@ def main():
             for other in balls:
                 ball.eat(other)
 
+
+if __name__ == '__main__':
+    main()
