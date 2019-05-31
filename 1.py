@@ -4,4 +4,4 @@ while True:
     S = math.pi*math.pow(r, 2)
     print("以%d为半径的圆 面积是%d" % (r, S))
     C = 2*math.pi*r
-    print("以%d为半径的圆 面积是%d" % (r, S))
+    print("以%d为半径的圆 周长是%d" % (r, C))
