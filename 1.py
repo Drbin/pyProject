@@ -22,7 +22,7 @@ def main():
     # 设置窗口大小
     top.geometry('240x160')
     # 设置窗口标题
-    top.title('小游戏')
+    top.title('计算器')
     # 创建标签对象并添加到顶层窗口
     label = tkinter.Label(top, text='Hello, world!', font='Arial -32', fg='red')
     label.pack(expand=1)
