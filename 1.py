@@ -12,7 +12,6 @@ def main():
         color, msg = ('red', 'Hello, world!')\
             if flag else ('blue', 'Goodbye, world!')
         label.config(text=msg, fg=color)
-
     # 确认退出
     def confirm_to_quit():
         if tkinter.messagebox.askokcancel('温馨提示', '确定要退出吗?'):
