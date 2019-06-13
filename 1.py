@@ -44,6 +44,8 @@ def main():
     twoBtn.pack(side='left')
     threeBtn= tkinter.Button(tos,text='3')
     threeBtn.pack(side='left')
+    fourBtn= tkinter.Button(tos,text='4')
+    fourBtn.pack(side='left')
     button1 = tkinter.Button(panel, text='修改', command=change_label_text)
     button1.pack(side='left')
     button2 = tkinter.Button(panel, text='退出', command=confirm_to_quit)
