@@ -8,5 +8,5 @@ def d(url):
     f.write(data)
     f.close()
     print("%d b 数据来源于 %s" %(len(data),url))
+d(url='https://www.baidu.com')
 
-d("http://www.jd.com")
