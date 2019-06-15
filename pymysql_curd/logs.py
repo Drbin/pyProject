@@ -1,5 +1,5 @@
 import socket
-my_name = socket.getfqdn(socket.gethostname(  ))
+my_name = socket.getfqdn(socket.gethostname())
 my_addr = socket.gethostbyname(my_name)
 
 
