@@ -7,4 +7,3 @@ def logs_on(data):
     f.write(my_addr+"\n")
     f.write(data+"\n")
     f.close()
-
