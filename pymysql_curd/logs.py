@@ -8,4 +8,3 @@ def logs_on(data):
     f.write(data+"\n")
     f.close()
 
-
