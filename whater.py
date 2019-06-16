@@ -7,6 +7,6 @@ def is_palindrome(num):
     return total == num
 
 if __name__ == '__main__':
-    
+
     num = int(input("请输入整数"))
     print(is_palindrome(num))
