@@ -42,10 +42,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-
-
-    if True :
-        fr=0
-    else:
-        fr=11
