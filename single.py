@@ -7,8 +7,5 @@ def main():
     data_model = json.loads(resp.text)
 
 
-    print(data_model)
-
-
 if __name__ == '__main__':
     main()
