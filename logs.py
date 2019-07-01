@@ -1,4 +1,5 @@
 
-def file_on():
+def file_on(data):
     f = open("logs.txt", "wb")
-    return 'file'
+    f.write(data)
+    return 0
