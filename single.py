@@ -6,5 +6,4 @@ def main():
     return data_model
 
 if __name__ == '__main__':
-
     main()
