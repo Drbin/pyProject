@@ -7,7 +7,7 @@ def d(url):
     f = open("file.html","wb")
     f.write(data)
     f.close()
-    logs.file_on("在 %s 获取了数据 并插入 file.html中" %url)
+    logs.file_on("在 %s 获取了数据 并插入 file.html中" % url)
     print("%d b 数据来源于 %s" %(len(data),url))
     return 0
 d(url='https://www.baidu.com')
