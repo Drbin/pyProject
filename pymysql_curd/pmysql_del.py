@@ -6,3 +6,4 @@ sql_del = "DELETE FROM admin_tbl WHERE admin_id = '22'"
 logs.logs_on("执行了"+sql_del)
 cur.execute(sql_del)
 con.commit()
+cur.close()
