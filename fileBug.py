@@ -8,7 +8,6 @@ def d(url):
     f.write(data)
     f.close()
     file_on("在 %s 获取了数据 并插入 file.html中 \n" % url)
-
     return 0
 d(url='https://www.baidu.com')
 
