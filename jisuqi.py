@@ -4,7 +4,6 @@ import tkinter.messagebox
 
 def main():
     flag = True
-
     # 修改标签上的文字
     def change_label_text():
         nonlocal flag
