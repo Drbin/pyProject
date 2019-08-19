@@ -1,5 +1,6 @@
 def file_on(data):
-    data = data.encode()
+    #data = data.encode()
     f = open("logs.txt", "a+")
     f.write(data)
     f.close()
+file_on('dsad')
