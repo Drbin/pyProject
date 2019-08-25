@@ -1,5 +1,8 @@
 import time
-import os
-print(os._add())
+
 time.sleep(4)
 print(1)
+a=0.1
+b=0.9
+a= 0.8
+print(a+b)
