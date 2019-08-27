@@ -9,4 +9,10 @@ print("数据库连接")
 sql_insert = 'insert into admin_tbl (admin_name,admin_password) values(11,md5(1));'
 con.execute(sql_insert)
 print("sql语句执行完成")
+cursor.execute("SELECT VERSION()")
+
+# 使用 fetchone() 方法获取单条数据.
+data = cursor.fetchone()
+
+print("Database version : %s " % data)
 
