@@ -2,7 +2,7 @@ import threading
 import time
 
 
-def sayhi(num):
+def run(num):
 
     print("running on number:%s" % num)
 
@@ -10,8 +10,8 @@ def sayhi(num):
 
 
 if __name__ == '__main__':
-    t1 = threading.Thread(target=sayhi, args=(1,))
-    t2 = threading.Thread(target=sayhi, args=(2,))
+    t1 = threading.Thread(target=run, args=(1,))
+    t2 = threading.Thread(target=run, args=(2,))
 
     t1.start()  #
     t2.start()  #
