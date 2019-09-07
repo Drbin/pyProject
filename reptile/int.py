@@ -1,4 +1,5 @@
 import urllib.request as urllib2
-res = urllib2.urlopen("http://www.baidu.com")
+req = urllib2.Request("http://www.baidu.com")
+res = urllib2.urlopen(req)
 html =  res.read()
 print(html)
