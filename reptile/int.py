@@ -5,7 +5,7 @@ req = urllib2.Request("https://www.baidu.com/s?wd=urllib2&rsv_spt=1&rsv_iqid=0xa
 res = urllib2.urlopen(req)
 html =  res.read()
 wd = {"wd" : "测试数据"}
-print(urllib2.quote(wd["wd"]))# python2 urlencode
+print(urllib2.pars_list(wd))# python2 urlencode
 code = res.getcode()
 print(code)
 #http 响应码
