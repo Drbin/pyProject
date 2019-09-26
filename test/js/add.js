@@ -44,3 +44,6 @@ $(document).on("click",".add_item_li",function () {
         '                 <input type="text" placeholder="请输入答案"  />\n' +
         '            </li>')
 })
+$("#submit").click(function () {
+    
+})
