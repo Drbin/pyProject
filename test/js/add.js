@@ -45,5 +45,5 @@ $(document).on("click",".add_item_li",function () {
         '            </li>')
 })
 $("#submit").click(function () {
-    
+    $.ajax({})
 })
