@@ -47,3 +47,6 @@ $(document).on("click",".add_item_li",function () {
 $("#submit").click(function () {
     $.ajax({})
 })
+var model =function () {
+    
+}
