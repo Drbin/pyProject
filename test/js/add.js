@@ -48,5 +48,5 @@ $("#submit").click(function () {
     $.ajax({})
 })
 var model =function () {
-    
+    var htmlStr=""
 }
