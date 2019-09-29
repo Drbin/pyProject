@@ -51,6 +51,6 @@ var model =function () {
     var htmlStr=""
 }
 class Model {
-    let htmlStr=""
+    htmlStr=""
 
 }
