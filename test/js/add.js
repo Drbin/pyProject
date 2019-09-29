@@ -50,3 +50,7 @@ $("#submit").click(function () {
 var model =function () {
     var htmlStr=""
 }
+class Model {
+    let htmlStr=""
+
+}
