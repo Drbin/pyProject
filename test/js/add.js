@@ -54,3 +54,4 @@ class Model {
     htmlStr=""
 
 }
+var modelBox= new Model();
