@@ -51,7 +51,7 @@ var model =function () {
     var htmlStr=""
 }
 class Model {
-    htmlStr=""
+    htmlStr="<div></div>"
 
 }
 var modelBox= new Model();
